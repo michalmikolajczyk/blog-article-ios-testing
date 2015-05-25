@@ -1,15 +1,9 @@
 'use strict';
 
 var gulp = require('gulp');
-
 var args = require('yargs').argv;
 var shell = require('gulp-shell');
 var webdriverUpdate = require('gulp-protractor').webdriver_update;
-
-/**
- * =======================================================================
- * TASKS USED FOR TESTING
- */
 
 function runMochaOnWebdriver () {
   var suite = args.suite || '**';

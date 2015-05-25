@@ -22,6 +22,10 @@
   "predef": [
     "angular",
     "webkit",
-    "Waypoint"
+    "Waypoint",
+    "after",
+    "before",
+    "describe",
+    "it"
   ]
 }
